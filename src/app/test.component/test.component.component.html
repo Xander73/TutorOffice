@@ -1,2 +1,16 @@
-<p>test.component works!</p>
-<input type="">
+<p class="center">test.component works!</p>
+
+<div class="container">
+    <div class="plate" *ngFor="let product of products">
+        <img src="i.webp" alt="{{product.name}}" />
+        <p>
+            Description
+        </p>
+        <h3>
+            {{product.price}}
+        </h3>
+        <button class="button-buy" (click)="buyProduct(product)">
+            Купить
+        </button>
+    </div>
+</div>

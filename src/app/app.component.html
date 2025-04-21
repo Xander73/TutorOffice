@@ -1,11 +1,19 @@
-<div class="container">
+<div class="app-page">
+  <mat-toolbar class="high-toolbar">
+    <div>
+      <img src="imgpath" alt="icon_">
+    </div>
+    <div class="right-side">
+      right side
+    </div>
+  </mat-toolbar>
   <mat-toolbar>
     <mat-toolbar-row>
-      <section>
-        <button *ngFor="let item of getMenu" mat-button [routerLink]="item.link">
+      <div class="nv-menu">
+        <button class="nv-menu-button" *ngFor="let item of getMenu" mat-button [routerLink]="item.link">
           {{item.name}}
         </button>
-      </section>
+      </div>
     </mat-toolbar-row>
   </mat-toolbar>
 </div>

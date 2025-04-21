@@ -1,0 +1,43 @@
+.app-page {
+    max-width: 1300px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nv-menu {
+    max-width: 1300px;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.nv-menu-button {
+    margin: 0 auto;
+    width: 33.333%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+:hover.nv-menu-button {
+    background-color: rgba(240, 240, 240, 0.651);
+}
+
+.right-side {
+    margin-left: auto;
+}
+
+.filler {
+    flex-grow: 1;
+}
+
+.high-toolbar {
+    height: 50px;
+    border: 2px solid green;
+    margin: 20px 0;
+}

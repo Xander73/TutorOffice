@@ -3,6 +3,7 @@ import { MainPageComponent } from "./main-page/main-page.component";
 import { ProductsPageComponent } from "./products-page/products-page.component";
 import { AboutMeComponent } from "./about-me/about-me.component";
 import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
 
 const GLOBAL_ROUTES: Routes = [
